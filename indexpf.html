@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Corben:wght@400;700&display=swap" rel="stylesheet">
+	
+<style>
+    * {margin: 0; padding: 0;}
+	
+	@font-face {
+		font-family: "Corben", serif, "Bonbon", cursive, Times, serif;
+		src: url("Bonbon-Regular.ttf");
+		src: url("Corben-Bold.ttf");
+		
+	} body {
+        background: #FF1652;		
+
+	} h1 { 
+		font-family: "Bonbon", cursive;
+  		font-weight: 400;
+  		font-style: normal;
+		font-size: 80px;
+		text-align: center;
+		color: aliceblue;
+		margin-bottom: 30px;
+
+    } #square {
+        width: 800px;
+        height: 768px;
+		background: #DB7AE5;
+		margin: 24px auto;
+        border: 12px solid #AFDE89;
+  		border-radius: 48px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: ;
+		
+	}  .thumb {
+		width: 150px;
+		justify-content: space-evenly;
+	} figure {
+		//background: green;
+		width: 160px;
+	} figcaption {
+		font-family: "Corben", serif;
+  		font-weight: 700;
+ 		font-style: normal;
+		line-height: 1.4em;
+		text-align: center
+	}	.tiger	{
+		width: 150px;
+		justify-content: space-evenly; 
+</style>
+</head>
+
+<body>
+	<h1>Portfolio</h1>
+	<div id="square">
+		<figure>
+		<a href="coverthumbnail.jpg" />
+			<img class="thumb" src="coverthumbnail.jpg"/>
+			<figcaption> "The Lies of Little Miss Josie Price" book cover by Lauryn Quiroz</figcaption>
+		</figure>
+		<figure>
+		<a href="tigerthumbnail.jpg" />
+			<img class="tiger" src="tigerthumbnail.jpg"/>
+			<figcaption>"Untitled" digital art by Lauryn Quiroz</figcaption>
+		</figure>
+		<figure>
+		<a href="SCREAMthumbnail.jpg" />
+			<img class="thumb" src="SCREAMthumbnail.jpg"/>
+			<figcaption>"Scream Event" poster by Lauryn Quiroz</figcaption>
+		</figure>
+    </div>
+</body>
+</html>
